@@ -43,6 +43,26 @@ keras
 PIL
 tpot
 ```
+<<<<<<< HEAD
+## How to create a csv file with the features extracted from the json file
+
+from /.Kate library/Data_Parsing import simple_features_generator
+
+relative_path = '../Hololens_data/'
+game_files=[
+           relative_path + '5.json',
+           relative_path + '6.json',
+           relative_path + '7.json',
+           relative_path + '8.json',
+           relative_path + '9.json',
+           relative_path + '10.json']
+
+X,y = simple_features_generator(game_files, 1)
+
+## Authors
+
+* **Jose MEenoci Neto** - [netomenoci](https://github.com/netomenoci)
+=======
 ## Running the tests
 
 You are now ready to run our programs either in a Jupyter Notebook form or the standard .py form
@@ -50,6 +70,7 @@ You are now ready to run our programs either in a Jupyter Notebook form or the s
 ## Authors
 
 * **Neto Menoci** - [netomenoci](https://github.com/netomenoci)
+>>>>>>> 5f0eb083e196a69ddd83f1e9701e998c053086bd
 * **Gregoire Martin** - [GregoireMartin](https://github.com/GregoireMartin)
 * **Niraj Srinivas** - [nirajsrinivas](https://github.com/nirajsrinivas)
 
