@@ -39,15 +39,9 @@ sklearn
 matplotlib
 mpl_toolkits
 sklearn
-```
-
-### Installing
-
-Most of these packages can be installed by using the pip3 command, assuming you are working on a Python3 framework. 
-
-As an example for seaborn, the following command can be executed in your terminal
-```
-pip3 install seaborn
+keras
+PIL
+tpot
 ```
 ## Running the tests
 
